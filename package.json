@@ -1,0 +1,19 @@
+{
+  "name": "mychat",
+  "version": "1.0.0",
+  "description": "this is chat application to make communcation between two people",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "myChat"
+  ],
+  "author": "kanojiya_vishal",
+  "license": "ISC",
+  "dependencies": {
+    "express.js": "^1.0.0",
+    "nodemon": "^2.0.19",
+    "socket.io": "^4.5.1"
+  }
+}

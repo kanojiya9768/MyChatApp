@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MyChatRoom</title>
+</head>
+<body>
+
+
+    <div class="app" id="app">
+
+        <!-- //join screen  -->
+        <div class="screen join-screen active" id="join-screen">
+            <div class="form">
+                <h2>Join ChatRoom</h2>
+                <div class="form-input">
+                    <label for="username">UserName</label>
+                    <input type="text" name="name" id="username">
+                </div>
+                <div class="form-input">
+                    <button id="join-user">Join</button>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- //chat screen  -->
+        <div class="screen chat-screen" id="chat-screen">
+
+            <div class="header">
+                <div class="logo">MyChatRoom</div>
+                <button id="exit-chat">Exit</button>
+            </div>
+
+            <!-- //message section is here  -->
+            <div class="messages" id="messages">
+
+                <!-- //my messages is here  -->
+                <!-- <div class="message my-message">
+                    <div>
+                        <div class="name">You</div>
+                        <div class="text">Hii</div>
+                    </div>
+                </div> -->
+
+
+                <!-- //updates about who have joined who have leaved the chat  -->
+                <!-- <div class="update" id="update">
+                    ABC is Joined The Conversation
+                </div> -->
+
+
+                <!-- //others messages is here  -->
+                 <!-- <div class="message others-message" id="others-message">
+                    <div>
+                        <div class="name">You</div>
+                        <div class="text">Hi</div>
+                    </div>
+                </div> -->
+
+            </div>
+
+            <div class="typebox">
+                <input type="text" id="message-input">
+                <button id="send-message">Send</button>
+            </div>
+        
+            
+        </div>
+    </div>
+
+
+   
+
+    <script type="text/javascript" src="socket.io/socket.io.js"></script>
+    <script src="code.js"></script>
+</body>
+</html>
