@@ -9,6 +9,10 @@ const server = require('http').createServer(app);
 
 app.use(express.static(path.join(__dirname + "/public")));
 
+app.get('/',(req,res)=>{
+    res.send();
+})
+
 
 //creating socket and listener
 const io = require('socket.io')(server);
