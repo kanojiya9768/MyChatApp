@@ -4,7 +4,8 @@
   "description": "this is chat application to make communcation between two people",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node server"
   },
   "keywords": [
     "myChat"
